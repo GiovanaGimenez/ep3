@@ -1,0 +1,64 @@
+header{
+    grid-area: cabe;
+    background-color: #946D43;
+}
+aside{
+    grid-area: brac;
+    background-color: #724A24;
+}
+main{
+    grid-area: prin;
+    background-color: white;
+}
+footer{
+    grid-area: roda;
+    background-color: #502B0F;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "cabe cabe"
+    "brac prin"
+    "roda roda";
+    grid-template-columns: 80px auto;
+    grid-template-rows: 138px 2400px 90px;
+    border: 5px solid black;
+}
+.caixa_mae{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    border: rgb(0, 0, 0) solid 13px;
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(116, 67, 50);
+    border-radius: 15px;
+    box-shadow: 5px 8px 10px black;
+}
+.card img{
+    width: 150px;
+    margin: auto;
+}
+.card a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 25px;
+    margin: 25px;
+    text-decoration: none;
+    background-color: white;
+}
+.logo_gimenez{
+    border-radius: 50%;
+    width: 11%;
+}
